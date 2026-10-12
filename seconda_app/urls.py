@@ -1,7 +1,8 @@
 from django.urls import path
-from seconda_app.views import esempio_if
+from seconda_app.views import esempio_if, esempio_if_else_elif
 
 app_name="seconda_app"
 urlpatterns=[
     path('seconda_app/es_if', esempio_if, name='esempio_if'),
+    path('seconda_app/esempio_if_else_elif', esempio_if_else_elif, name='esempio_if_else_elif'),
 ]
